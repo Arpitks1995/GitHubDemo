@@ -30,6 +30,9 @@ public class ValidateNavigationBar extends base {
 		System.out.println("Update something and check in GitHub");
 		System.out.println("Update Something when we required");
 		System.out.println("Lets Test");
+		//Lets changes done by the american Guy
+		System.out.println("Now check the after getting some changes ");
+		System.out.println("Try to check the changes after getting the changes");
 		log.debug("I am doing debuging");
 		log.error("Error is here");
 		

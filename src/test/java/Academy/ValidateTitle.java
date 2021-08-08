@@ -38,6 +38,7 @@ public class ValidateTitle extends base {
 		//Assert.assertEquals(lp.getTitle().getText(), "FEATUREDCOURSES");
 		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");
 		log.debug("I am doing debuging");
+		System.out.println("Changes done by the US guy");
 		log.error("Error is here");
 		
 		
