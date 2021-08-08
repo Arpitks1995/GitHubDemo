@@ -27,6 +27,9 @@ public class ValidateNavigationBar extends base {
 	public void basePageNavigation() throws IOException {
 		LandingPage lp=new LandingPage(driver);
 		Assert.assertTrue(lp.getNaviagationBar().isDisplayed());
+		System.out.println("Update something and check in GitHub");
+		System.out.println("Update Something when we required");
+		System.out.println("Lets Test");
 		log.debug("I am doing debuging");
 		log.error("Error is here");
 		
