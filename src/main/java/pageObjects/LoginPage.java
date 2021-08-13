@@ -22,14 +22,29 @@ public class LoginPage {
 		
 	}
 	
+	public WebElement getEmails() {
+		return driver.findElement(email);
+		
+	}
+	
 
 	public WebElement getPassword() {
 		return driver.findElement(password);
 		
 	}
 	
+	public WebElement getPasswords() {
+		return driver.findElement(password);
+		
+	}
+	
 
 	public WebElement getLogin() {
+		return driver.findElement(login);
+		
+	}
+	
+	public WebElement getLogins() {
 		return driver.findElement(login);
 		
 	}

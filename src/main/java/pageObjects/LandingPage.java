@@ -17,11 +17,24 @@ public class LandingPage {
 		return driver.findElement(signin);
 	}
 	
+	public WebElement getLogins() {
+		return driver.findElement(signin);
+	}
+	
+	
 	public WebElement getTitle() {
 		return driver.findElement(title);
 	}
 	
+	public WebElement getTitles() {
+		return driver.findElement(title);
+	}
+	
 	public WebElement getNaviagationBar() {
+		return driver.findElement(NavBar);
+	}
+	
+	public WebElement getNaviagationBars() {
 		return driver.findElement(NavBar);
 	}
 	

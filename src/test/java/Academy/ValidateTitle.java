@@ -40,6 +40,7 @@ public class ValidateTitle extends base {
 		log.debug("I am doing debuging");
 		System.out.println("Changes done by the US guy");
 		log.error("Error is here");
+		log.error("Error is here");
 		
 		
 	}
